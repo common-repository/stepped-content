@@ -1,0 +1,125 @@
+{
+	"apiVersion": "1",
+	"name": "stp/content",
+	"title": "Stepped Content",
+	"description": "Seamlessly organize your information into interactive steps.",
+	"category": "widgets",
+	"keywords": [
+		"steps",
+		"tabs",
+		"tabs content"
+	],
+	"textdomain": "stepped-content",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "full"
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"data": {
+			"type": "array",
+			"default": []
+		},
+		"layout": {
+			"type": "object",
+			"default": {
+				"height": "800px"
+			}
+		},
+		"nav": {
+			"type": "object",
+			"default": {
+				"display": true
+			}
+		},
+		"navBGColor": {
+			"type": "string",
+			"default": "#fff"
+		},
+		"title": {
+			"type": "string",
+			"selector": ".stpContent .stpNav h2",
+			"default": "Documentation Page"
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#3c4043"
+		},
+		"remainingTimeColor": {
+			"type": "string",
+			"default": "#3c4043"
+		},
+		"menu": {
+			"type": "object",
+			"default": {
+				"layout": "numberCount",
+				"themeColor": "#1a73e8",
+				"textColor": "#212121"
+			}
+		},
+		"buttons": {
+			"type": "object",
+			"default": {
+				"back": {
+					"content": "text",
+					"text": "Back",
+					"colors": {
+						"color": "#1a73e8",
+						"bg": "#fff"
+					}
+				},
+				"next": {
+					"content": "text",
+					"text": "Next",
+					"colors": {
+						"color": "#fff",
+						"bg": "#1a73e8"
+					}
+				},
+				"done": {
+					"text": "Done",
+					"linkTab": "_self",
+					"colors": {
+						"color": "#fff",
+						"bg": "#1e8e3e"
+					}
+				}
+			}
+		},
+		"isDoneBtn": {
+			"type": "boolean",
+			"default": true
+		},
+		"doneBtnLink": {
+			"type": "string",
+			"default": "#"
+		},
+		"stepsBG": {
+			"type": "object",
+			"default": {
+				"color": "#f8f9fa"
+			}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"columns": {
+				"desktop": 1,
+				"tablet": 1,
+				"mobile": 1
+			}
+		}
+	},
+	"editorScript": "file:../dist/editor.js"
+}

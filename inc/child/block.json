@@ -1,0 +1,63 @@
+{
+	"apiVersion": "1",
+	"name": "stp/step",
+	"title": "Step",
+	"description": "Single step for step content.",
+	"parent": [
+		"stp/content"
+	],
+	"category": "widgets",
+	"keywords": [
+		"step",
+		"documentation",
+		"step content"
+	],
+	"textdomain": "stepped-content",
+	"attributes": {
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"step": {
+			"type": "number",
+			"default": 1
+		},
+		"duration": {
+			"type": "object",
+			"default": {
+				"h": 0,
+				"m": 2,
+				"s": 30
+			}
+		},
+		"background": {
+			"type": "object",
+			"default": {
+				"color": "#fff"
+			}
+		},
+		"contentColor": {
+			"type": "string",
+			"default": "#161616"
+		},
+		"isTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"title": {
+			"type": "string",
+			"selector": ".stpStep h2.instructionTitle",
+			"default": "Step Title"
+		}
+	},
+	"supports": {
+		"align": false,
+		"reusable": false,
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	}
+}

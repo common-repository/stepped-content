@@ -1,0 +1,358 @@
+# Copyright (C) 2024 bPlugins
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stepped Content 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/stepped-content-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-04T05:57:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: stepped-content\n"
+
+#. Plugin Name of the plugin
+#: inc/UpgradePage.php:12
+msgid "Stepped Content"
+msgstr ""
+
+#. Description of the plugin
+msgid "Seamlessly organize your information into interactive steps."
+msgstr ""
+
+#. Author of the plugin
+msgid "bPlugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://bplugins.com"
+msgstr ""
+
+#: inc/Menu.php:11
+#: inc/Menu.php:12
+msgid "Stepped Content Block"
+msgstr ""
+
+#: inc/UpgradePage.php:13
+msgid "Stepped Content- Upgrade"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5177
+msgid "General"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5178
+msgid "Style"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5182
+msgid "Text"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5183
+msgid "Icon"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5184
+msgid "Title"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5188
+msgid "Number Count"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5189
+msgid "List Range"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5248
+msgid "Buttons"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5249
+msgid "Back Content Type"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5252
+msgid "Back Text"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5259
+msgid "Next Content Type"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5262
+msgid "Next Text"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5269
+msgid "Show Done Button"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5272
+msgid "Done Text"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5276
+msgid "Done Button Link:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5278
+msgid "Open link in new tab"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5329
+msgid "Layout"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5334
+msgid "Navbar"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5335
+msgid "Show"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5337
+msgid "Background Color:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5339
+#: dist/editor.js:5833
+msgid "Title:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5342
+msgid "Title Color:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5344
+msgid "Remaining Time Color:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5348
+msgid "Menu/Sidebar"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5349
+msgid "Theme"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5351
+msgid "Theme Color:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5353
+msgid "Text Color:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5360
+msgid "Steps"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5361
+#: dist/editor.js:5823
+msgid "Background:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5367
+msgid "Display Navbar: "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5367
+msgid "Show/Hide the top Navbar"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5369
+msgid "Menu/Sidebar Theme: "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5369
+msgid "Change the Sidebar theme."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5371
+msgid "Back Button Content: "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5371
+msgid "Apply Icon, Previous Step Title, or Text for the Back button."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5373
+msgid "Back Button Text: "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5373
+msgid "Change the Back button text."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5375
+msgid "Next Button Content: "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5375
+msgid "Apply Icon, Next Step Title, or Text for the Next button."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5377
+msgid "Next Button Text: "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5377
+msgid "Change the Next button text."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5379
+msgid "Done Button Text: "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5379
+msgid "Change the Done button text."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5381
+msgid "Done Button Link Target: "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5381
+msgid "Open link in a new tab or current tab for the Done button"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5800
+msgid "Step Settings"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5801
+msgid "Duration:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5805
+msgid "H:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5810
+msgid "M:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5815
+msgid "S:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5822
+msgid "Step Style"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5825
+msgid "Content Color:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:5829
+msgid "Title Settings"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block title"
+msgid "Stepped Content"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block description"
+msgid "Seamlessly organize your information into interactive steps."
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "steps"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "tabs"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "tabs content"
+msgstr ""
+
+#: inc/child/block.json
+msgctxt "block title"
+msgid "Step"
+msgstr ""
+
+#: inc/child/block.json
+msgctxt "block description"
+msgid "Single step for step content."
+msgstr ""
+
+#: inc/child/block.json
+msgctxt "block keyword"
+msgid "step"
+msgstr ""
+
+#: inc/child/block.json
+msgctxt "block keyword"
+msgid "documentation"
+msgstr ""
+
+#: inc/child/block.json
+msgctxt "block keyword"
+msgid "step content"
+msgstr ""
